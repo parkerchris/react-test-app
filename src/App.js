@@ -1,9 +1,16 @@
 import './App.css';
+import Property from './Properties'
+import Person from './Person'
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <div>
+        <Property />
+      </div>
+      <div>
+        <Person />
+      </div>
     </div>
   );
 }
